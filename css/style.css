@@ -62,10 +62,11 @@ body {
 }
 
 .navbar a {
+    border-left: 1px;
+    display: flex;
     font-family: baloo;
     height: 100%;
     width: 100%;
-    display: flex;
     text-align: center;
     font-size: 1.2em;
     border: 1px solid whitesmoke;
