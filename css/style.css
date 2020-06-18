@@ -76,6 +76,9 @@ body {
     text-decoration: none;
 }
 
+.navbar a i {
+    font-size: 1.4em;
+}
 .active, a:hover {
     background-color: tomato;
 }
