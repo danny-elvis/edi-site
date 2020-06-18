@@ -62,7 +62,7 @@ body {
 }
 
 .navbar a {
-    border-left: 1px;
+    border-left: -1px;
     display: flex;
     font-family: baloo;
     height: 100%;
