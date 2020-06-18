@@ -1,0 +1,93 @@
+@font-face {
+    font-family: expletus;
+    src: url('../fonts/ExpletusSans-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: baloo;
+    src: url('../fonts/BalooThambi2-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding:0;
+    margin:0;
+    list-style:none;
+    border:0;
+    /*overflow: hidden; */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+
+/**:focus {
+    outline: 0 !important;
+    }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}*/
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+
+}
+
+.navbar {
+    background-color: whitesmoke;
+    bottom: 0;
+    align-self: end;
+    position: fixed;
+    transition: bottom .5s;
+    width: 100vw;
+    border-top: 1px solid lightgrey;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    height: 4em;
+    align-items: center;
+    /*! border: 1px solid #0034ff; */
+}
+
+.navbar ul li {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar a {
+    font-family: baloo;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid whitesmoke;
+    color: darkslateblue;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.active, a:hover {
+    background-color: tomato;
+}
+
+section {
+    padding: 2em;
+    height: 90vh;
+    width: auto;
+    /*! background-color: red; */
+
+}
+
+#home h1 {
+    font-family: expletus;
+    margin: 15px;
+}
