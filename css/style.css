@@ -62,17 +62,17 @@ body {
 }
 
 .navbar a {
-    border-left: -1px;
-    display: flex;
-    font-family: baloo;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    font-size: 1.2em;
     border: 1px solid whitesmoke;
     color: darkslateblue;
-    justify-content: center;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;  
+    margin-left: -1px;    
+    height: 100%;
+    width: 100%;
+    font-family: baloo;
+    font-size: 1.2em;
     text-decoration: none;
 }
 
