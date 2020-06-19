@@ -78,7 +78,7 @@ body {
     display: flex;
     text-align: center;
     border: 1px solid whitesmoke;
-    color: #000;
+    color: whitesmoke;
     justify-content: center;
     flex-direction: column;
     text-decoration: none;
@@ -87,7 +87,7 @@ body {
 .navbar .active {
     background-color: #ff7400;
     transition: 1.5s;
-    color: whitesmoke;
+    color: #000;
 }
 
 .navbar a i {
