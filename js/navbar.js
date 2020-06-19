@@ -5,7 +5,7 @@ window.onscroll = function () {
     if (prevScrollPos < currentScrollPos || currentScrollPos < '5' || (prevScrollPos / 3) > (currentScrollPos / 2)) {
         document.getElementById("navbar").style.bottom = "0";
     } else {
-        document.getElementById("navbar").style.bottom = "-4em";
+        document.getElementById("navbar").style.bottom = "-6em";
     }
     prevScrollPos = currentScrollPos;
 }
