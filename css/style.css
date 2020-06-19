@@ -131,7 +131,6 @@ section {
 
 #home span img {
     width: 4.5em;
-    height: max-content;
 }
 
 #home h1 {
@@ -212,7 +211,6 @@ section h2 {
 @media screen and (min-width: 900px) {
     #home span img {
         width: 7em;
-        height: max-content;
     }
 
     #home .logo p {
