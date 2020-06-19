@@ -1,10 +1,4 @@
 @font-face {
-    font-family: expletus;
-    src: url('../fonts/ExpletusSans-Bold.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: baloo;
     src: url('../fonts/BalooThambi2-Regular.ttf');
     font-weight: normal;
@@ -212,6 +206,19 @@ section h2 {
 
 /* Media query */
 @media screen and (min-width: 900px) {
+    
+    .navbar ul {
+        height: 5em;
+    }
+    
+    .navbar ul li {
+        font-size: 1.2em;
+    }
+    
+    .navbar a i {
+        font-size: 1.8em;
+    }
+    
     section {
         height: 98vh;
     }
