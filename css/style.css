@@ -106,7 +106,7 @@ section {
 #home {
     background-image: url('../images/container.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -22em;
     background-size: cover;
 }
 
@@ -229,6 +229,10 @@ section h2 {
     section {
         height: 98vh;
     }
+    
+    #home {
+        background-position: center;
+    }    
     
     #home span img {
         width: 7em;
