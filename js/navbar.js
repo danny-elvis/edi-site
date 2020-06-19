@@ -42,7 +42,7 @@ $(window).scroll(function(){
    
    // Get id of current scroll item
    var cur = scrollItems.map(function(){
-     if ($(this).position().top < fromTop) //offset
+     if ($(this).offset().top < fromTop) //position
        return this;
    });
    // Get the id of the current element
