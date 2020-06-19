@@ -101,7 +101,8 @@ body {
 
 section {
     padding: 1em;
-    height: 96vh;
+    margin-top: -2px
+    height: 100vh;
     width: auto;
     /*! background-color: red; */
 
