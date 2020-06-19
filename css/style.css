@@ -106,7 +106,7 @@ section {
 #home {
     background-image: url('../images/container.jpg');
     background-repeat: no-repeat;
-    background-position: -22em;
+    background-position: center;
     background-size: cover;
 }
 
