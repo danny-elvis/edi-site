@@ -46,9 +46,10 @@ input::-webkit-inner-spin-button {
 
 
 body {
+    background-color: whitesmoke;
     height: 100vh;
     width: 100vw;
-    background-color: whitesmoke;
+    overflow-x: hidden;
 
 }
 
