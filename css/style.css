@@ -78,7 +78,7 @@ body {
     display: flex;
     text-align: center;
     border: 1px solid whitesmoke;
-    color: whitesmoke;
+    color: #ff7400;
     justify-content: center;
     flex-direction: column;
     text-decoration: none;
