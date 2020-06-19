@@ -84,7 +84,7 @@ body {
     text-decoration: none;
 }
 
-.navbar .active, .navbar a:hover {
+.navbar .active {
     background-color: #ff7400;
     transition: 1.5s;
     color: whitesmoke;
@@ -214,6 +214,12 @@ section h2 {
     
     .navbar ul li {
         font-size: 1.2em;
+    }
+    
+    .navbar a:hover {
+    background-color: #ff7400;
+    transition: 1.5s;
+    color: whitesmoke;
     }
     
     .navbar a i {
