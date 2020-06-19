@@ -10,6 +10,20 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: advent;
+    src: url('../fonts/AdventPro-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/RobotoCondensed-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 * {
     padding:0;
@@ -68,16 +82,15 @@ body {
     width: 100%;
     display: flex;
     text-align: center;
-    /*! font-size: 1em; */
     border: 1px solid whitesmoke;
-    color: #4e4f2f;
+    color: #000;
     justify-content: center;
     flex-direction: column;
     text-decoration: none;
 }
 
-.active, a:hover {
-    background-color: #e49e5b;
+.navbar .active, .navbar a:hover {
+    background-color: #ff7400;
     transition: 1.5s;
 }
 
@@ -87,7 +100,7 @@ body {
 
 section {
     padding: 1em;
-    height: 95vh;
+    height: 98vh;
     width: auto;
     /*! background-color: red; */
 
@@ -100,12 +113,28 @@ section {
     background-size: cover;
 }
 
+#home .logo {
+    display: flex;
+}
+
+#home .logo span{
+    padding-left: 1.5em;
+}
+
+#home .logo p{
+    font-family: roboto;
+    letter-spacing: 2px;
+}
+
+#home span img {
+    width: 4.5em;
+}
+
 #home h1 {
-    font-family: expletus;
-    margin: 15px;
-    font-size: xxx-large;
-    color: #e49e5b;
-    text-shadow: 0px 0px 2px black;
+    font-family: advent;
+    font-size: 2.8em;
+    color: #000;
+    text-shadow: 0px 0px 1px lightgray;
 }
 
 #projetos {
@@ -122,7 +151,7 @@ section {
     flex-wrap: wrap;
     height: inherit;
     width: auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #projetos ul li {
@@ -144,7 +173,6 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 97vh;
 }
 
 #sobre a {
@@ -169,8 +197,41 @@ section {
 }
 
 section h2 {
-    font-family: expletus;
-    color: #4e4f2f;
-    text-shadow: 0px 0px 1px #e49e5b;
-    font-size: x-large;
+    font-family: advent;
+    color: #000;
+    text-shadow: 0px 0px 1px #ff7400;
+    font-size: 1.5em;
+    padding: 5px;
 }
+
+/* Media query */
+@media screen and (min-width: 900px) {
+    #home span img {
+        width: 7em;
+    }
+
+    #home .logo p {
+        font-size: 1.5em;
+    }
+
+    #home h1 {
+        font-size: 4em;
+    }
+
+    #projetos {
+        min-height: 100vh;
+    }
+
+    #projetos ul {
+        flex-direction: row;
+    }
+
+    #projetos ul li {
+        width: 35%;
+        font-size: 1.2em;
+    }
+
+    #projetos ul li img {
+        border: 2px solid darkgray; 
+    }
+  }
