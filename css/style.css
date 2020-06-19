@@ -87,6 +87,7 @@ body {
 .navbar .active, .navbar a:hover {
     background-color: #ff7400;
     transition: 1.5s;
+    color: whitesmoke;
 }
 
 .navbar a i {
